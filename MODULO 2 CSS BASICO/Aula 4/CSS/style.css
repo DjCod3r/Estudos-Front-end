@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.h1artigo{
+	background-color:rgb(50,50,50);
+	color: white;
+	font-family: "Lucida console";
+	font-style: italic;
+	font-weight: normal;
+}
+div.artigo{
+	margin: 20px auto;
+	width: 900px;
+	text-align: center;
+	background-color: rgb(220,220,220);
+	padding: 35px;
+
+
+}
+.artigo p{
+	letter-spacing: 2px;
+	font-style: italic;
+	margin: 20px;
+	line-height: 30px;
+	text-align: left;
+}

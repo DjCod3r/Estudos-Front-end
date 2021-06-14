@@ -1,0 +1,38 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+
+html,body{
+  height:100%;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+
+}
+form > *{ /* Altera Escrita dentro da Box */
+	font-family: Oswald;
+}
+div{
+	width: 100%;
+	height:100%;
+
+}
+h2{
+	text-align: center;
+
+}
+
+@font-face{
+	font-family: "lucida";
+	src:url('..//Font/lucida.ttf');
+}
+p.text{
+	font-family: lucida;
+}
+
+.text{
+	font-family: Oswald !important/*sobreescrever*/;
+}

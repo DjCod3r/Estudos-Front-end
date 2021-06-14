@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+body{
+	background-color: lightpink;
+}
+.teste, .teste1, .teste2{
+	height: 200px;
+	width: 200px;
+	background-color: rgb(200,200,200);
+	margin: 20px;
+	display: inline-block;
+}
+
+
+.teste1{
+	background-color: rgb(150,150,150);
+}
+
+.teste2{
+	background-color: rgb(100,100,100);
+}
+
+.teste:hover{ /* hover = ação quando passar mouse por cima */
+	background-color: rgb(220,220,220);
+}
+
+.teste1:active{ /*active = ação quando pressionar o botão do mousse */
+	background-color: rgb(80,150,150);
+}
+
+
+form{
+	margin-left: 40px;
+}
+
+.teste3:focus{ /* Focus = para formularios */
+	background-color: lightblue;
+}
+
+.link1:link{
+	color: yellow;
+}
+/*
+.link1:visited{
+	color: purple;
+} */
+.envio{
+	display: block;
+	width: 300px;
+	height: 300px;
+
+}

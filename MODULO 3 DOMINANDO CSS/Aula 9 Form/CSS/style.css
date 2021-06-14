@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+body{background-color: rgba(50,1,250,0.4);}
+form{
+	background-color: lightpink;
+	width: 96%;
+	max-width: 600px;
+	margin:6% auto;
+	padding: 20px;
+}
+
+form legend{
+	color: rgb(100,100,200);
+	font-style: bold;
+	text-align: center;
+}
+
+form fieldset{
+	border:2px solid rgb(80,80,150);
+}
+
+form input[type=text]{
+	margin: 10px 6%;
+	padding: 3px 0px;
+	width: 85%;
+}
+
+form input[type=text]:focus{
+	background-color: lightblue;
+	outline-color: rgba(1,255,255,0.7);
+}
+
+
+form select{
+	margin-top: 10px;
+	width: 85%;
+	display: inline-block;
+	background-color: rgba(180,255,255,1);
+	margin-left: 6%;
+	margin-bottom: 2%;
+	padding: 1% 0px;
+	outline-color: rgba(1,255,255,0.8);
+
+}
+
+h4{
+	margin-top: 3%;
+	text-align: center;
+}
+
+form input[type=radio]{
+	margin-left: 40%;
+	padding-bottom: 1%;
+}
+
+.radio-input{
+
+	margin-bottom: 1%;
+}
+
+.radio-input span{
+	margin-top: 30px;
+}
+
+form input[type=checkbox]{
+	
+	margin-left: 40%;
+	padding-bottom: 1%;
+}
+
+form input[type=submit]{
+	height: 50px;
+	width: 70px;
+	font-size: 20px;
+	font-style: bold;
+	margin-left: 42%;
+	cursor: pointer;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color: lightblue;
+	border:0px;
+	padding: 2px;
+}
+
+form input[type=submit]:hover{
+	background-color: white;
+}
+form input[type=submit]:active{
+	background-color: purple;
+}

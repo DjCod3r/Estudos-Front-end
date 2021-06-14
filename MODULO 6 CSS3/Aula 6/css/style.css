@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+.table{
+	display: table;
+	width: 700px;
+	margin: 0 auto;
+}
+.table-row{
+	
+	display: table-row;
+}
+.table-cel{
+	width: 50%;
+	border:1px solid black;
+	display: table-cell;
+}

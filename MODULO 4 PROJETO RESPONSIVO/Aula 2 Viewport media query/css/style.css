@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+
+.box{
+	border: 1px solid black;
+	width: 33.2%;
+	height: 300px;
+	float: left;
+	background-color: blue;
+}
+/*ordenar itens responsivo */
+@media screen and (max-width: 500px){
+	.box{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 300px){
+	.box{width: 100%;}
+}

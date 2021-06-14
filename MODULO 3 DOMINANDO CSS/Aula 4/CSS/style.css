@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+.bg{
+	height: 100%;
+	width: 50%;
+	margin: 0px auto;
+	background-color: lightgrey;
+	background-image: url('..//imagens/coffee.jpg');
+	background-size: cover; /* contain */
+	background-position: center;
+	/*background-repeat: repeat-x repeat-y;*/
+
+}

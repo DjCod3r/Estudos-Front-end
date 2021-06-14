@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+.box{
+	text-align: center;
+	margin: 10px auto;
+	width: 300px;
+	background-color: lightgrey;
+	height: 200px;
+	overflow: auto;
+}
+
+
+.box p{
+	width: 450px;
+}

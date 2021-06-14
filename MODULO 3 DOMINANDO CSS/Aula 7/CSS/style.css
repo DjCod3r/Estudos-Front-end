@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+/* 
+ul li:nth-of-type(2){
+	color: red;
+}
+
+ul li:nth-of-type(3){
+	color: lightpink;
+
+}
+
+ul li:nth-child(5){
+	color: green;
+}
+*/
+
+.box{
+	width: 404px;
+	background-color: lightblue;
+
+}
+
+.item{
+	border:1px solid black;
+	font-size: 40px;
+	float: left;
+	height: 200px;
+	width: 200px;
+	background-color: lightpink;
+}
+
+div .item:nth-of-type(2){
+	background-color: darkblue;
+}
+
+.box div:Last-of-type{
+	background-color: purple;
+}
+
+.box div:last-of-type p:last-of-type{
+	color: white;
+}
+
+/* qual não atacar
+.box div:not(.one){
+	background-color: red;
+} */
+
+
+/* adicionar texto
+.one::before{
+	content: "PPP";
+} */

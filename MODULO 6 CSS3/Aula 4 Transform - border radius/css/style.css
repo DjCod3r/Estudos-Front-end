@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+.box{
+	width: 30%;
+	padding-top: 30%;
+	margin: 100px auto;
+	position: relative;
+
+}
+
+.teste{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	border-radius: 50%;
+}
+
+
+.transform{
+	
+	width: 300px;
+	height: 300px;
+	border:5px solid grey;
+	border-radius: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transition: 2s;
+	transform:translate(-50%,-50%);
+}
+
+.transform:hover{
+	transition: 5s;
+	background-color: lightblue;
+	transform: rotateX(180deg);  translate(-50%,-50%);
+	
+
+	
+}
+.transform:active{
+	transition: 2s;
+	transform: translate(-100%,-100%) rotate(30deg);
+}

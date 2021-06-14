@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+.container{
+	background-color: grey;
+	text-align: center;
+}
+.box{
+	border: 1px solid black;
+	width: 33%;
+	max-width: 300px;
+	height: 300px;
+	display: inline-block;
+	background-color: blue;
+}
+
+.box:last-child{margin-right: 0}
+@media screen and (max-width: 768px){
+	.box{width: 48%;}
+}
+@media screen and (max-width: 768px){
+	.box{width: 98%;}
+}

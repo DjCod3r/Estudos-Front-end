@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+[href]{
+	background-color: lightyellow;
+}
+/*
+[href*="google"]{
+	background-color: red;
+}
+Quando começa c uma palavra				*/ 
+/*[attr^="dan"]{
+	background-color: yellow;
+}
+*/
+/* quando termina c uma palavra */
+[attr$="code"]{
+	background-color: green;
+
+}
+input[type="text"]{
+	background-color: lightyellow;
+}

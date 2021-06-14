@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+
+.center{
+	box-sizing: border-box;
+	margin: 1px auto;
+	width: 80%;
+	background-color: lightgrey;
+	
+}
+
+ h1{
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+b{
+	color: red;
+	font-size: 20px;
+}
+.Artigo{
+	
+	border: dotted;
+	vertical-align: top;
+	padding: 20px;
+	display: inline-block;
+	width: 41%
+
+}

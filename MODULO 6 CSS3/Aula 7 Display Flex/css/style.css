@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+main{height: 100%;
+	display: flex;
+	align-items: center;
+	/*flex-direction: row-reverse;*/
+}
+
+aside{
+	order: 2;
+	padding: 30px;
+	background-color: lightblue;
+}
+
+article{order:1;
+	padding: 30px;
+	background-color: lightgrey;
+height: 100%;
+}
+

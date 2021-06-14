@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+html,body{
+	height: 100%;
+}
+/*
+.sidebar{
+	width: 250px;
+	height: 100%;
+	background-color: pink;
+	float: left;
+}
+.con{
+	height: 100%;
+	width: calc(100% - 250px);
+	background-color: blue;
+	float: left;
+}
+*/
+.box{/*n leva em consideração scroll bar */
+	width: 100vw;
+	height: 100vh;
+	background-color: blue;
+}

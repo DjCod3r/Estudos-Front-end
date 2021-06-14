@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+
+.center{
+	box-sizing: border-box;
+	margin: 1px auto;
+	width: 80%;
+	background-color: lightgrey;
+	padding: 30px;
+}
+
+ h1{
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+b{
+	color: red;
+	font-size: 20px;
+}
+.Artigo{
+	
+	margin-left: 35px;
+
+}
